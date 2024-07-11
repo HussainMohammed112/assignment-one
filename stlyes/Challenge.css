@@ -1,0 +1,47 @@
+/* 1st */
+.header{
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section{
+     align-items: center;
+     margin-top: 26px;
+     margin-left: 221px;
+     margin-bottom: 45px;
+     margin-right: 221px;
+}
+.first-written{
+    text-align: center;
+}
+.head-line{
+    font-size: 48px;
+    color: #0D1321;
+    font-weight: bolder;
+    width: 998px;
+}
+.paragraph{
+    font-size: 16px;
+    font-weight: normal;
+    width: 852px;
+    
+}
+.computer-man{
+    text-align: center;
+    margin-bottom: 32px;
+}
+/* 2nd */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-two{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-three{
+    display: flex;
+    justify-content: space-between;
+}
+
+
