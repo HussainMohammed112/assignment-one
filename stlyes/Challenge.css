@@ -32,7 +32,7 @@
 
     
 }
-.btn{
+.btn-one{
     margin-top: 20px;
     margin-bottom: 50px;
     padding: 10px;
@@ -114,6 +114,59 @@ main{
     background-color:#faefaa;
     width: 366px;
 }
-
+/* ------last work---------- */
+.img-container img{
+   
+    /* background-image: url(../assets/handshake.jpg); */
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    margin-top: -250px;
+}
+.input-tag{
+    color: white;
+    background-color: white;
+    color: black;
+    width: 548px;
+    height: 37px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.button{
+    gap: 26px;
+    
+}
+.container{
+    color: white;
+    
+}
+.btn{
+    font:600;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 10px 24px;
+}
 
 /* footer style */
+footer{
+    max-width: 1140px;
+    margin: auto;
+    width: 946px;
+    margin-top: 120px;
+    
+}
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.icon{
+    display: flex;
+    gap: 13px;
+}
+    
