@@ -1,4 +1,8 @@
 /* 1st */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 .header{
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
@@ -43,5 +47,14 @@
     display: flex;
     justify-content: space-between;
 }
-
+.banner-head-line{
+    text-align: center;
+}
+.skill-heading{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    text-align: center;
+}
 
