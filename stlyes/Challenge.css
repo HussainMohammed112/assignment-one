@@ -1,8 +1,5 @@
 /* 1st */
-main{
-    max-width: 1140px;
-    margin: auto;
-}
+
 .header{
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
@@ -10,51 +7,113 @@ main{
 }
 .section{
      align-items: center;
+     text-align: center;
      margin-top: 26px;
      margin-left: 221px;
      margin-bottom: 45px;
      margin-right: 221px;
+     width: 998px;
+     margin: auto;
 }
 .first-written{
+    
     text-align: center;
 }
 .head-line{
+    text-align: center;
     font-size: 48px;
     color: #0D1321;
     font-weight: bolder;
-    width: 998px;
+   
 }
 .paragraph{
     font-size: 16px;
     font-weight: normal;
-    width: 852px;
+
     
 }
+.btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: #0D1321;
+    color: white;
+    border-radius: 10px;
+
+}
 .computer-man{
+    align-items: center;
     text-align: center;
     margin-bottom: 32px;
 }
 /* 2nd */
+main{
+    max-width: 1140px;
+    margin: auto;
+    width: 946px;
+}
+.banner-head-line{
+
+    justify-content: space-around;
+    padding: 48px;
+}
 .banner{
     display: flex;
     justify-content: space-between;
+    padding: 48px;
 }
 .banner-two{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 48px;
 }
+
 .banner-three{
     display: flex;
     justify-content: space-between;
+    padding: 48px;
 }
 .banner-head-line{
     text-align: center;
+    
 }
+/* -------------------skill section-------------- */
+
 .skill-heading{
     text-align: center;
-}
-.skills-container{
-    display: flex;
-    text-align: center;
+    margin-top: 5px;
 }
 
+.skill-para{
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.current-target{
+    margin-top: 70px;
+    
+}
+
+.skills-container{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    gap: 2rem;
+}
+.skill-html{
+    padding: 20px;
+    background-color:  #edb2a4;
+    width: 366px;
+}
+.skill-css{
+    padding: 20px;
+    background-color: #9cbaf5;
+    width: 366px;
+}.skill-js{
+    padding: 20px;
+    background-color:#faefaa;
+    width: 366px;
+}
+
+
+/* footer style */
